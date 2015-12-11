@@ -330,7 +330,7 @@ class DataFrame {
 
 ### <a name='pattern-matching'>패턴 매칭</a>
 
-- 함수 전체가 페턴 매칭을 하는 함수라면 `match` 를 함수의 정의로써 가장 앞에 같은 줄에 놓습니다. 이와 같이 들여쓰기의 레벨을 한단계 줄이도록 합니다.
+- 함수 전체가 패턴 매칭을 하는 함수라면 `match` 를 함수의 정의로써 가장 앞에 같은 줄에 놓습니다. 이와 같이 들여쓰기의 레벨을 한단계 줄이도록 합니다.
   ```scala
   def test(msg: Message): Unit = msg match {
     case ...
